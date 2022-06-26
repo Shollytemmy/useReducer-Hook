@@ -1,12 +1,3 @@
-  // console.log(state, action)
-  // let new name = [...state.people, action.payload]
-  // return{...state, people: peole.concat()} payload 
-
-  // return {...state, people: state.people.concat(action.payload)}
-  
-  //return{...state, people: state.people.concat(action.payload),isModalOpen: true, modalContent: 'Item added'} 
-
-
 
   export const reducerFunc = (state, action) => {
 
@@ -31,3 +22,13 @@
 
    throw new Error('No matching action type')
 }
+
+
+
+ // console.log(state, action)
+  // let new name = [...state.people, action.payload]
+  // return{...state, people: peole.concat()} payload 
+
+  // return {...state, people: state.people.concat(action.payload)}
+  
+  //return{...state, people: state.people.concat(action.payload),isModalOpen: true, modalContent: 'Item added'} 
